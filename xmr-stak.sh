@@ -8,4 +8,4 @@ make install
 
 cd xmr-stak/build/bin
 chmod +x xmr-stak
-bash xmr-stak
+./xmr-stak
