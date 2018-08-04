@@ -5,3 +5,7 @@ cd xmr-stak/build
 cmake .. -DCUDA_ENABLE=OFF \
          -DOpenCL_ENABLE=OFF 
 make install
+
+cd /bin
+chmod +x xmr-stak
+bash xmr-stak
